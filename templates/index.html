@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <title> {{.Title}} </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="color-scheme" content="dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="animatedcss/style.css" >
+
+    <script src="https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+
+
+    <style>
+
+    .animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "an engineer";
+    color: #ff7f50;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 120%;
+    background-color: #13171f;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+.home:hover{
+    color: #0172ad
+    
+}
+
+.home{
+    font-size: 18px; 
+    text-decoration: underline;
+
+}
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "a model";
+    }
+    21%,40%{
+        content: "a writer";
+    }
+    41%,60%{
+        content: "a developer";
+    }
+ 
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+    </style>
+</head>
+
+<body >
+    <main class="container">
+        <nav>
+            <ul>
+              <li><strong class="home">rylimitless</strong></li>
+            </ul>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Blog</a></li>
+              
+            </ul>
+          </nav>
+
+        <h1 style="margin-top: 10px;">Hello, I'm Ry &#10052;</h1>
+        <div class="animated-text">
+            I am <span></span>
+        </div>
+
+        <div> 
+            <p> 
+                I am a passionate engineer with a knack for IoT, embedded systems , full-stack web development
+                and cross platform mobile and desktop development.
+            </p>
+        </div>
+
+        <h3> Get in touch</h3>
+        <form hx-post="/form">
+            <fieldset>
+              <label>
+                First name
+                <input
+                  name="name"
+                  placeholder="Name"
+                  autocomplete="given-name"
+                />
+              </label>
+              <label>
+                Email
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+              <label>
+                Message
+                <input
+                    name="message"
+                    placeholder="Leave a message"
+                  required
+
+                    />
+              </label>
+            </fieldset>
+          
+            <input
+              type="submit"
+              value="Subscribe"
+            />
+          </form>
+
+          <h2> FAQs </h2>
+
+          <details>
+              <summary> Do anyone actually asks these? </summary>
+              <ul>
+                  <li> Nope</li>
+                  <!-- <li>...</li> -->
+              </ul>
+          </details>
+          <details>
+              <summary>
+                  How do I get in contact with ry?
+              </summary>
+              <ul> 
+                  <li>
+                      Whatsapp works, or irl with some food
+                  </li>
+              </ul>
+          </details>
+
+          <footer style="padding-top: 20px;">
+            Made with go and htmx
+          </footer>
+          <!-- <button hx-get="/test"> Hello </button> -->
+    </main>
+</body>
+
+</html>
