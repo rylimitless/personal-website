@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://rylimitless.github.io/personal-website/'
 
 locale = 'en-us'
 theme = "hugo-noir"
@@ -10,7 +10,7 @@ title = 'Ryheeme Donegan Personal Website'
 
 [[menu.main]]
 name = "Experience"
-url = "/experience/"
+url = "experience/"
 weight = 2
 
 [[menu.main]]
@@ -20,17 +20,17 @@ weight = 1
 
 [[menu.main]]
 name = "Projects"
-url = "/projects/"
+url = "projects/"
 weight = 3
 
 [[menu.main]]
 name = "Blog"
-url = "/blog/"
+url = "blog/"
 weight = 4
 
 [[menu.main]]
 name = "Contanct"
-url = "/contact/"
+url = "contact/"
 weight = 4
 
 [params]
