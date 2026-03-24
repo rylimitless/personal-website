@@ -1,4 +1,5 @@
 baseURL = 'https://rylimitless.github.io/personal-website/'
+canonifyURLs = true
 
 locale = 'en-us'
 theme = "hugo-noir"
@@ -23,13 +24,13 @@ name = "Projects"
 url = "projects/"
 weight = 3
 
-[[menu.main]]
-name = "Blog"
-url = "blog/"
-weight = 4
+# [[menu.main]]
+# name = "Blog"
+# url = "blog/"
+# weight = 4
 
 [[menu.main]]
-name = "Contanct"
+name = "Contact"
 url = "contact/"
 weight = 4
 

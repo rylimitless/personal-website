@@ -4,6 +4,8 @@
   <url>
     <loc>http://localhost:1313/personal-website/categories/</loc>
   </url><url>
+    <loc>http://localhost:1313/personal-website/contact/</loc>
+  </url><url>
     <loc>http://localhost:1313/personal-website/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/personal-website/projects/</loc>
