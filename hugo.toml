@@ -1,7 +1,9 @@
 baseURL = 'https://rylimitless.github.io/personal-website/'
+canonifyURLs = true
+
 locale = 'en-us'
 theme = "hugo-noir"
-title = 'Personal Website'
+title = 'Ryheeme Donegan Personal Website'
 
 [caches]
   [caches.images]
