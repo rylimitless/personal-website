@@ -1,5 +1,4 @@
-baseURL = 'https://rylimitless.github.io/personal-website/'
-canonifyURLs = true
+baseURL = '/'
 
 locale = 'en-us'
 theme = "hugo-noir"
