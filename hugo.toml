@@ -16,7 +16,7 @@ weight = 2
 
 [[menu.main]]
 name = "Home"
-url = "personal-website/"
+url = ""
 weight = 1
 
 [[menu.main]]
