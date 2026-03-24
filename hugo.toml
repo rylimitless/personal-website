@@ -1,7 +1,7 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rylimitless.github.io/personal-website/'
 locale = 'en-us'
 theme = "hugo-noir"
-title = 'Ryheeme Donegan Personal Website'
+title = 'Personal Website'
 
 [caches]
   [caches.images]
