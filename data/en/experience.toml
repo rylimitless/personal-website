@@ -1,0 +1,44 @@
+[[experience]]
+  role = "Robotics Engineer"
+  company = "Ceres Robotics"
+  company_link = "https://www.ceresrobotja.com/" # Add company URL here
+  period = "Jul 2023 - Present"
+  country = "Remote"
+  responsibilities = [
+    "Developed YOLO object detection pipeline in Python and C for real-time robotic vision and autonomous control.",
+    "Built physics-based drone simulations in ROS and Gazebo to validate control algorithms before hardware deployment, reducing physical testing cycles.",
+    "Designed 3D models for robotic actuators and motors, enabling physical prototyping and system integration.",
+    "Led end-to-end drone development across assembly, simulation, repair, and algorithm validation.",
+    "Implemented network communication layer for autonomous drone coordination and real-time telemetry.",
+    "Developed BLE application in Flutter and Kotlin for a hardware panic button enabling real-time emergency alerts."
+  ]
+  technologies = ["Python", "C", "YOLO", "ROS", "Gazebo", "3D Modeling", "Networking", "BLE", "Flutter", "Kotlin"]
+
+[[experience]]
+  role = "Software Engineer"
+  company = "Freelance"
+  company_link = "" # Add company URL here
+  period = "May 2024 - Present"
+  country = "Remote"
+  responsibilities = [
+    "Rebuilt a production inventory management system in Go and Templ, improving system stability and performance over the prior implementation.",
+    "Architected and managed on-cloud infrastructure on DigitalOcean including server provisioning, DNS management, firewall configuration, and automated backups, reducing operational costs by 30%.",
+    "Configured Cloudflare for SSL termination, DDoS protection, and DNS routing for production services.",
+    "Implemented CI/CD pipelines for automated builds and deployments, reducing manual deployment overhead.",
+    "Administered MySQL database including migrations, query optimization, and data integrity enforcement.",
+    "Developed a Flutter mobile application with PayLoadCMS (TypeScript) to extend core enterprise features, improving accessibility and user engagement."
+  ]
+  technologies = ["Go", "Templ", "DigitalOcean", "Cloudflare", "MySQL", "CI/CD", "Flutter", "TypeScript"]
+
+[[experience]]
+  role = "AI Trainer"
+  company = "Scale AI"
+  company_link = "" # Add company URL here
+  period = "May 2024 - Present"
+  country = "Remote"
+  responsibilities = [
+    "Created training data for advanced AI models using code inputs to perform specific tasks using Python.",
+    "Evaluated and analyzed code-based outputs from AI models to ensure at least 80% accuracy and functionality.",
+    "Iteratively refined AI model performance through data analysis and code-based adjustments."
+  ]
+  technologies = ["Python", "Data Analysis", "ML Evaluation"]

@@ -1,0 +1,42 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+theme = "hugo-noir"
+title = 'Ryheeme Donegan Personal Website'
+
+
+[[menu.main]]
+name = "Experience"
+url = "/experience/"
+weight = 2
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 3
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 4
+
+[[menu.main]]
+name = "Contanct"
+url = "/contact/"
+weight = 4
+
+[params]
+  name = "Ryheeme Donegan"
+  location = "Jamaica"
+  description = "Software and systems engineer with 2+ years of experience working across robotics, embedded systems, backend services, and cloud infrastructure. Experienced with Go, Linux-based systems, and building and deploying real-world applications across web, mobile, and traditional IT environments."
+  profile_image = "/images/your-profile.jpg" # Place in your site's static/images/
+  # Social links
+  github = "https://github.com/rylimitless"
+  # twitter = "https://twitter.com/yourusername"
+  linkedin = "https://www.linkedin.com/in/ryheemedonegan/"
+  email = "ryheemedonegan2003@gmail.com"
+  # ... other params ...

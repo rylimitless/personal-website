@@ -1,0 +1,13 @@
+[[projects]]
+  title = "MedSim"
+  description = "MedSim is a prototype VR handtracking application to interact with a human brain"
+  tech = "Next.js, React , Typescript , Mediapipe.js, PostgreSQL, Docker"
+  image = "/images/projects/medsim.png"
+  link = "https://medsim-vcjkb.sevalla.app/"
+
+[[projects]]
+  title = "IoT Lab"
+  description = "Another project description."
+  tech = "Python, FastAPI, MongoDB, Vue.js , C++"
+  image = "/images/projects/iot.png"
+  link = "https://github.com/rylimitless/home_weather_system"
