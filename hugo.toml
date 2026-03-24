@@ -3,6 +3,9 @@ locale = 'en-us'
 theme = "hugo-noir"
 title = 'Ryheeme Donegan Personal Website'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [[menu.main]]
 name = "Experience"
