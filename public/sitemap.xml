@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/personal-website/categories/</loc>
+    <loc>https://rylimitless.github.io/personal-website/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/personal-website/contact/</loc>
+    <loc>https://rylimitless.github.io/personal-website/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/personal-website/experience/</loc>
+    <loc>https://rylimitless.github.io/personal-website/experience/</loc>
   </url><url>
-    <loc>http://localhost:1313/personal-website/projects/</loc>
+    <loc>https://rylimitless.github.io/personal-website/projects/</loc>
   </url><url>
-    <loc>http://localhost:1313/personal-website/</loc>
+    <loc>https://rylimitless.github.io/personal-website/</loc>
   </url><url>
-    <loc>http://localhost:1313/personal-website/tags/</loc>
+    <loc>https://rylimitless.github.io/personal-website/tags/</loc>
   </url>
 </urlset>
