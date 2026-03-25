@@ -1,4 +1,11 @@
 [[experience]]
+  role = "BSc Electronics and Computer Science"
+  company = "University of the West Indies"
+  company_link = "https://www.mona.uwi.edu/"
+  period = ""
+  country = "Jamaica"
+
+[[experience]]
   role = "Robotics Engineer"
   company = "Ceres Robotics"
   company_link = "https://www.ceresrobotja.com/" # Add company URL here
