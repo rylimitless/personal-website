@@ -1,21 +1,11 @@
 {{ define "main" }}
 <div class="max-w-4xl mx-auto px-4 py-12">
-    <!--<h1
-        class="text-5xl font-bold mb-3 text-text-primary-light dark:text-text-primary-dark"
+    <h1
+        class="text-5xl pb-4 font-bold mb-3 text-text-primary-light dark:text-text-primary-dark"
     >
         {{ .Title }}
-    </h1>-->
-    <div
-        class="mb-12 bg-bg-primary-light dark:bg-bg-secondary-dark p-8 rounded-lg border border-border-primary-light dark:border-border-primary-dark"
-    >
-        <div class="intro-section">
-            <div
-                class="text-text-secondary-light dark:text-text-secondary-dark text-3xl prose prose-invert prose-l max-w-none"
-            >
-                {{ .Content }}
-            </div>
-        </div>
-    </div>
+    </h1>
+
     <div class="space-y-8">
         {{ $experienceData := index site.Data .Language.Lang "experience" }} {{
         with $experienceData.experience }} {{ range . }}
